@@ -18,27 +18,8 @@ namespace designedPattern
                 Console.Write("输入数字B:");
                 string strNumberB = Console.ReadLine();
                 string strResult = "";
-                switch (strOperate)
-                {
-                    case "+":
-                        strResult = Convert.ToString(Convert.ToDouble(strNumberA) +     Convert.ToDouble(strNumberB));
-                        break;
-                    case "-":
-                        strResult = Convert.ToString(Convert.ToDouble(strNumberA) - Convert.ToDouble(strNumberB));
-                        break;
-                    case "*":
-                        strResult = Convert.ToString(Convert.ToDouble(strNumberA) * Convert.ToDouble(strNumberB));
-                        break;
-                    case "/":
-                        if (strNumberB != "0")
-                            strResult = Convert.ToString(Convert.ToDouble(strNumberA) / Convert.ToDouble(strNumberB));
-                        else
-                            Console.WriteLine("除数不能为0");
-                        break;
-                    default:
-                        Console.WriteLine("输入的参数不正确");
-                        break;
-                }
+                Operate operate = new Operate(Convert.ToDouble(strNumberA), Convert.ToDouble(strNumberB), strOperate);
+                strResult=operate.getResult().ToString(); 
                 Console.WriteLine(strResult);
                 Console.ReadLine();
             }
