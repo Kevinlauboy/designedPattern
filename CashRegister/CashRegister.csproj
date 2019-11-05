@@ -59,6 +59,11 @@
     <Compile Include="pattern\CashReduction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="strategy\Cash.cs" />
+    <Compile Include="strategy\CashContext.cs" />
+    <Compile Include="strategy\CashDiscount.cs" />
+    <Compile Include="strategy\CashNormal.cs" />
+    <Compile Include="strategy\CashReduction.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
