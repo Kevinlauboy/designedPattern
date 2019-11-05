@@ -9,6 +9,7 @@ namespace designedPattern
     {
         static void Main(string[] args)
         {
+            /*简单工厂----计算器例子*/
             try
             {
                 Console.Write("输入数字A:");

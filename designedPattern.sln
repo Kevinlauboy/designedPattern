@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "designedPattern", "designedPattern\designedPattern.csproj", "{0EDA4681-DFFC-4108-948B-3C2D38D93307}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashRegister", "CashRegister\CashRegister.csproj", "{D3604D2D-0661-4AC5-A883-DAECD7D5375A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{0EDA4681-DFFC-4108-948B-3C2D38D93307}.Debug|x86.Build.0 = Debug|x86
 		{0EDA4681-DFFC-4108-948B-3C2D38D93307}.Release|x86.ActiveCfg = Release|x86
 		{0EDA4681-DFFC-4108-948B-3C2D38D93307}.Release|x86.Build.0 = Release|x86
+		{D3604D2D-0661-4AC5-A883-DAECD7D5375A}.Debug|x86.ActiveCfg = Debug|x86
+		{D3604D2D-0661-4AC5-A883-DAECD7D5375A}.Debug|x86.Build.0 = Debug|x86
+		{D3604D2D-0661-4AC5-A883-DAECD7D5375A}.Release|x86.ActiveCfg = Release|x86
+		{D3604D2D-0661-4AC5-A883-DAECD7D5375A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
