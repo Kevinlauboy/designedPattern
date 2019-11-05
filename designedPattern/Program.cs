@@ -18,7 +18,9 @@ namespace designedPattern
                 Console.Write("输入数字B:");
                 string strNumberB = Console.ReadLine();
                 string strResult = "";
-                Operate operate = new Operate(Convert.ToDouble(strNumberA), Convert.ToDouble(strNumberB), strOperate);
+                Operate operate = OperateFactory.createOperate(strOperate);
+                operate.NumberA = Convert.ToDouble(strNumberA);
+                operate.NumberB = Convert.ToDouble(strNumberB);
                 strResult=operate.getResult().ToString(); 
                 Console.WriteLine(strResult);
                 Console.ReadLine();
