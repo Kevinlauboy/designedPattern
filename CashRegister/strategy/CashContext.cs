@@ -8,7 +8,7 @@ namespace CashRegister.strategy
     //结算策略
     class CashContext
     {
-        private Cash cashImp;
+        private Cash cashImp = null;
         public Cash CashImp
         {
             set { cashImp = value; }
