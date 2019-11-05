@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "designedPattern", "designed
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashRegister", "CashRegister\CashRegister.csproj", "{D3604D2D-0661-4AC5-A883-DAECD7D5375A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorate", "Decorate\Decorate.csproj", "{BD18D6CA-E3B6-4C31-B85F-4568902BBA2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{D3604D2D-0661-4AC5-A883-DAECD7D5375A}.Debug|x86.Build.0 = Debug|x86
 		{D3604D2D-0661-4AC5-A883-DAECD7D5375A}.Release|x86.ActiveCfg = Release|x86
 		{D3604D2D-0661-4AC5-A883-DAECD7D5375A}.Release|x86.Build.0 = Release|x86
+		{BD18D6CA-E3B6-4C31-B85F-4568902BBA2D}.Debug|x86.ActiveCfg = Debug|x86
+		{BD18D6CA-E3B6-4C31-B85F-4568902BBA2D}.Debug|x86.Build.0 = Debug|x86
+		{BD18D6CA-E3B6-4C31-B85F-4568902BBA2D}.Release|x86.ActiveCfg = Release|x86
+		{BD18D6CA-E3B6-4C31-B85F-4568902BBA2D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
