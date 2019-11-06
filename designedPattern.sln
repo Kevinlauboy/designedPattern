@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{0D54CBAD-EF7A-4F05-AEEC-3E850B08AF77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{61953FE0-06C7-434E-9721-A455F19DDD07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{4CD49F81-54D7-4DA3-9DFB-C88B7E0D516D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -49,6 +53,14 @@ Global
 		{0D54CBAD-EF7A-4F05-AEEC-3E850B08AF77}.Debug|x86.Build.0 = Debug|x86
 		{0D54CBAD-EF7A-4F05-AEEC-3E850B08AF77}.Release|x86.ActiveCfg = Release|x86
 		{0D54CBAD-EF7A-4F05-AEEC-3E850B08AF77}.Release|x86.Build.0 = Release|x86
+		{61953FE0-06C7-434E-9721-A455F19DDD07}.Debug|x86.ActiveCfg = Debug|x86
+		{61953FE0-06C7-434E-9721-A455F19DDD07}.Debug|x86.Build.0 = Debug|x86
+		{61953FE0-06C7-434E-9721-A455F19DDD07}.Release|x86.ActiveCfg = Release|x86
+		{61953FE0-06C7-434E-9721-A455F19DDD07}.Release|x86.Build.0 = Release|x86
+		{4CD49F81-54D7-4DA3-9DFB-C88B7E0D516D}.Debug|x86.ActiveCfg = Debug|x86
+		{4CD49F81-54D7-4DA3-9DFB-C88B7E0D516D}.Debug|x86.Build.0 = Debug|x86
+		{4CD49F81-54D7-4DA3-9DFB-C88B7E0D516D}.Release|x86.ActiveCfg = Release|x86
+		{4CD49F81-54D7-4DA3-9DFB-C88B7E0D516D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

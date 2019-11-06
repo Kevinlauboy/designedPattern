@@ -7,5 +7,9 @@ namespace Facade.facade
 {
     class SubSystemThree
     {
+        public void MethodThree()
+        {
+            Console.WriteLine("子系统方法三");
+        }
     }
 }

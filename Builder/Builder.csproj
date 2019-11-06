@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{61953FE0-06C7-434E-9721-A455F19DDD07}</ProjectGuid>
+    <ProjectGuid>{4CD49F81-54D7-4DA3-9DFB-C88B7E0D516D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Facade</RootNamespace>
-    <AssemblyName>Facade</AssemblyName>
+    <RootNamespace>Builder</RootNamespace>
+    <AssemblyName>Builder</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="facade\FacadePlat.cs" />
-    <Compile Include="facade\SubSystemFour.cs" />
-    <Compile Include="facade\SubSystemOne.cs" />
-    <Compile Include="facade\SubSystemThree.cs" />
-    <Compile Include="facade\SubSystemTwo.cs" />
+    <Compile Include="Builder.cs" />
+    <Compile Include="ConcreteBuilderA.cs" />
+    <Compile Include="Director.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ConcreteBuilderB.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
