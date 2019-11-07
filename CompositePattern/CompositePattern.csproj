@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6FA07CD1-183B-4071-B26D-8979D8802FCC}</ProjectGuid>
+    <ProjectGuid>{88B1B851-5300-4BA0-BBA6-B0B092846D52}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MemoPattern</RootNamespace>
-    <AssemblyName>MemoPattern</AssemblyName>
+    <RootNamespace>CompositePattern</RootNamespace>
+    <AssemblyName>CompositePattern</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,16 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="gameBackup\GameRole.cs" />
-    <Compile Include="gameBackup\RoleStateCaretaker.cs" />
-    <Compile Include="gameBackup\RoleStateMemento.cs" />
-    <Compile Include="memoBase\Caretaker.cs" />
-    <Compile Include="memoBase\Memento.cs" />
-    <Compile Include="memoBase\Originator.cs" />
+    <Compile Include="compositePattern\Component.cs" />
+    <Compile Include="compositePattern\Composite.cs" />
+    <Compile Include="compositePattern\Leaf.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
