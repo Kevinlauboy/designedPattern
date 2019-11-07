@@ -49,6 +49,12 @@
     <Compile Include="BossCome\Secretary.cs" />
     <Compile Include="BossCome\StockObserver.cs" />
     <Compile Include="BossCome\Subject.cs" />
+    <Compile Include="BossEvent\Boss.cs" />
+    <Compile Include="BossEvent\EventDefine.cs" />
+    <Compile Include="BossEvent\NBAObserver.cs" />
+    <Compile Include="BossEvent\Observer.cs" />
+    <Compile Include="BossEvent\StockObserver.cs" />
+    <Compile Include="BossEvent\Subject.cs" />
     <Compile Include="ObserverBase\ConcreteObserver.cs" />
     <Compile Include="ObserverBase\ConcreteSubject.cs" />
     <Compile Include="ObserverBase\Observer.cs">
