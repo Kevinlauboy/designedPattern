@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "Observer\ObserverPattern.csproj", "{8C56D335-B9A7-469E-AE90-943F33C04E85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{7B91F697-BD4D-434C-A374-A7D729EBD7AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -67,6 +69,10 @@ Global
 		{8C56D335-B9A7-469E-AE90-943F33C04E85}.Debug|x86.Build.0 = Debug|x86
 		{8C56D335-B9A7-469E-AE90-943F33C04E85}.Release|x86.ActiveCfg = Release|x86
 		{8C56D335-B9A7-469E-AE90-943F33C04E85}.Release|x86.Build.0 = Release|x86
+		{7B91F697-BD4D-434C-A374-A7D729EBD7AF}.Debug|x86.ActiveCfg = Debug|x86
+		{7B91F697-BD4D-434C-A374-A7D729EBD7AF}.Debug|x86.Build.0 = Debug|x86
+		{7B91F697-BD4D-434C-A374-A7D729EBD7AF}.Release|x86.ActiveCfg = Release|x86
+		{7B91F697-BD4D-434C-A374-A7D729EBD7AF}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
