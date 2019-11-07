@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Abstract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{A212C0C3-4041-45AA-8FE1-A1248AAEF639}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{F57F6EB9-71F1-4857-BA50-4AFE78C89236}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -79,6 +81,10 @@ Global
 		{A212C0C3-4041-45AA-8FE1-A1248AAEF639}.Debug|x86.Build.0 = Debug|x86
 		{A212C0C3-4041-45AA-8FE1-A1248AAEF639}.Release|x86.ActiveCfg = Release|x86
 		{A212C0C3-4041-45AA-8FE1-A1248AAEF639}.Release|x86.Build.0 = Release|x86
+		{F57F6EB9-71F1-4857-BA50-4AFE78C89236}.Debug|x86.ActiveCfg = Debug|x86
+		{F57F6EB9-71F1-4857-BA50-4AFE78C89236}.Debug|x86.Build.0 = Debug|x86
+		{F57F6EB9-71F1-4857-BA50-4AFE78C89236}.Release|x86.ActiveCfg = Release|x86
+		{F57F6EB9-71F1-4857-BA50-4AFE78C89236}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
