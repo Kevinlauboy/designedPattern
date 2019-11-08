@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E8937B7D-EE96-4F27-A122-AD65837CD202}</ProjectGuid>
+    <ProjectGuid>{7257E5E6-EAE1-414A-B1F7-9ED7B97C168F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SingletonPattern</RootNamespace>
-    <AssemblyName>SingletonPattern</AssemblyName>
+    <RootNamespace>BridgePattern</RootNamespace>
+    <AssemblyName>BridgePattern</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,13 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bridgeBase\Abstraction.cs" />
+    <Compile Include="bridgeBase\Implementor.cs" />
+    <Compile Include="bridgeBase\RefinedAbstraction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="singleHungry\SingleHungry.cs" />
-    <Compile Include="singleonPattern\Singleton.cs" />
-    <Compile Include="singleonInProcs\Singleprocs.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

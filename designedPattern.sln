@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "Iterator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "Singleton\SingletonPattern.csproj", "{E8937B7D-EE96-4F27-A122-AD65837CD202}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{7257E5E6-EAE1-414A-B1F7-9ED7B97C168F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -109,6 +111,10 @@ Global
 		{E8937B7D-EE96-4F27-A122-AD65837CD202}.Debug|x86.Build.0 = Debug|x86
 		{E8937B7D-EE96-4F27-A122-AD65837CD202}.Release|x86.ActiveCfg = Release|x86
 		{E8937B7D-EE96-4F27-A122-AD65837CD202}.Release|x86.Build.0 = Release|x86
+		{7257E5E6-EAE1-414A-B1F7-9ED7B97C168F}.Debug|x86.ActiveCfg = Debug|x86
+		{7257E5E6-EAE1-414A-B1F7-9ED7B97C168F}.Debug|x86.Build.0 = Debug|x86
+		{7257E5E6-EAE1-414A-B1F7-9ED7B97C168F}.Release|x86.ActiveCfg = Release|x86
+		{7257E5E6-EAE1-414A-B1F7-9ED7B97C168F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
