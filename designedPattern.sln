@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoPattern", "MemoPattern\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{88B1B851-5300-4BA0-BBA6-B0B092846D52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{B6362298-31FB-44F8-AF19-BBA2A4E6D5E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -97,6 +99,10 @@ Global
 		{88B1B851-5300-4BA0-BBA6-B0B092846D52}.Debug|x86.Build.0 = Debug|x86
 		{88B1B851-5300-4BA0-BBA6-B0B092846D52}.Release|x86.ActiveCfg = Release|x86
 		{88B1B851-5300-4BA0-BBA6-B0B092846D52}.Release|x86.Build.0 = Release|x86
+		{B6362298-31FB-44F8-AF19-BBA2A4E6D5E1}.Debug|x86.ActiveCfg = Debug|x86
+		{B6362298-31FB-44F8-AF19-BBA2A4E6D5E1}.Debug|x86.Build.0 = Debug|x86
+		{B6362298-31FB-44F8-AF19-BBA2A4E6D5E1}.Release|x86.ActiveCfg = Release|x86
+		{B6362298-31FB-44F8-AF19-BBA2A4E6D5E1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
