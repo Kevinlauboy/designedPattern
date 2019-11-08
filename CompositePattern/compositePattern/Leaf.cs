@@ -7,6 +7,12 @@ namespace CompositePattern.compositePattern
 {
     class Leaf : Component
     {
+
+        public Leaf(string name)
+            : base(name)
+        {
+
+        }
         public override void Add(Component c)
         {
             Console.WriteLine("cannot add to a leaf");

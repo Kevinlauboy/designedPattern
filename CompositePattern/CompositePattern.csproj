@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="company\Company.cs" />
+    <Compile Include="company\ConcreteCompany.cs" />
+    <Compile Include="company\FinanceDepartment.cs" />
+    <Compile Include="company\HRDepartment.cs" />
     <Compile Include="compositePattern\Component.cs" />
     <Compile Include="compositePattern\Composite.cs" />
     <Compile Include="compositePattern\Leaf.cs" />

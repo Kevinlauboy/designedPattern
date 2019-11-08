@@ -7,19 +7,28 @@ namespace CompositePattern.compositePattern
 {
     class Composite:Component
     {
+        private List<Component> children = new List<Component>();
+        public Composite(string name):base(name)
+        {
+            
+        }
         public override void Add(Component c)
         {
-            throw new NotImplementedException();
+            children.Add(c);
         }
 
         public override void Remove(Component c)
         {
-            throw new NotImplementedException();
+            children.Remove(c);
         }
 
         public override void Display(int depth)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(new String('-', depth) + name);
+            foreach (Component component in children)
+            {
+                component.Display(depth + 2);
+            }
         }
     }
 }
