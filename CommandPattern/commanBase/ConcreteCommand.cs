@@ -9,11 +9,11 @@ namespace CommandPattern.commanBase
     {
         public ConcreteCommand(Receiver receiver):base(receiver)
         {
-            receiver.Action();
+            
         }
         public override void Execute()
         {
-            throw new NotImplementedException();
+            receiver.Action();
         }
     }
 }
