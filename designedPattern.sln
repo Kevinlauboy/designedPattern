@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsibilityPattern", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{E6BE0784-C0D1-4079-88F0-A949E7566187}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fyweightPattern", "fyweightPattern\fyweightPattern.csproj", "{387AE497-2C57-4AAC-B0A5-6B8334AD8CFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -133,6 +135,10 @@ Global
 		{E6BE0784-C0D1-4079-88F0-A949E7566187}.Debug|x86.Build.0 = Debug|x86
 		{E6BE0784-C0D1-4079-88F0-A949E7566187}.Release|x86.ActiveCfg = Release|x86
 		{E6BE0784-C0D1-4079-88F0-A949E7566187}.Release|x86.Build.0 = Release|x86
+		{387AE497-2C57-4AAC-B0A5-6B8334AD8CFE}.Debug|x86.ActiveCfg = Debug|x86
+		{387AE497-2C57-4AAC-B0A5-6B8334AD8CFE}.Debug|x86.Build.0 = Debug|x86
+		{387AE497-2C57-4AAC-B0A5-6B8334AD8CFE}.Release|x86.ActiveCfg = Release|x86
+		{387AE497-2C57-4AAC-B0A5-6B8334AD8CFE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
